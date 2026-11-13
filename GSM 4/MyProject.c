@@ -27,14 +27,14 @@ void InitiGSM()
  }
 void SendCall()
 {
-    UART1_Write_Text("ATD0772243320;");
+    UART1_Write_Text("ATD0790000000;");
     UART1_Write(13);
     UART1_Write(10);
 }
 void SendMSG(char Val[])
 {
    // InitiGSM();
-    UART1_Write_Text("AT+CMGS=\"0772243320\"");
+    UART1_Write_Text("AT+CMGS=\"0790000000\"");
     UART1_Write(13);
     UART1_Write(10);
     delay_ms(2000);

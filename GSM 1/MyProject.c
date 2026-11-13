@@ -19,7 +19,7 @@ portd=0x00;
   {
         if (portb.f0==1)
         {
-              UART1_Write_Text("ATD0772243320;");
+              UART1_Write_Text("ATD0790000000;");
                UART1_Write(13);
                 UART1_Write(10);
                  portd.f0=1;

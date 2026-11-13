@@ -38,8 +38,8 @@ portd=0x00;
   while (1)
   {
         if (portb.f0==1)
-        {     //  SendMSG("0772243320","sari2");
-              SendCall("0772243320");
+        {     //  SendMSG("0790000000","sari2");
+              SendCall("0790000000");
               portd.f0=1;
               delay_ms(1000);
         }  else
